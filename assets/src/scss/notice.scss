@@ -1,0 +1,10 @@
+@import 'common';
+@import 'components/notice';
+
+.#{$prefix}-notice-list{
+    padding: 30px 30px 60px;
+    background-color: $color_light_gray;
+    .#{$prefix}-notice{
+        margin-top: 30px;
+    }
+}

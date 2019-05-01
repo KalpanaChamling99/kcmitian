@@ -1,0 +1,36 @@
+.#{$prefix}-sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background-color: $color_light_blue;
+    overflow: auto;
+}
+.#{$prefix}-nav-bar{
+    background-color: $color_white;
+    color: $color_primary;
+    padding: 0 30px;
+    box-shadow: 0 0 5px 4px #b5aeae;
+    margin-left: 250px;
+    margin-bottom: 5px;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.#{$prefix}-main{
+    margin-left: 250px;
+    padding-right: 250px;
+    padding-top: 60px;
+    
+}
+.#{$prefix}-user-info{
+    border-radius: 5px;
+    min-height: 100vh;
+    position: fixed;
+    right: 0;
+    top:60px;
+    width: 250px;
+    padding: 30px;
+    background-color: $color_light_blue;
+}

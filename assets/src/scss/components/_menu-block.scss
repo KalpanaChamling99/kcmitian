@@ -1,0 +1,24 @@
+.evit-menu-block{
+    background: $color_white;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    a{
+        display: block;
+        width: 100%;
+        color: $color_secondary;
+        font-weight: $font_weight_semi_bold;
+        font-size: 18px;
+        text-decoration: none;
+        &:hover{
+            color: $color_primary;
+        }
+        span{
+            display: block;
+            &.evit-image{
+                width: 100px;
+                margin: 0 auto 10px auto;
+            }
+        }
+    }
+}

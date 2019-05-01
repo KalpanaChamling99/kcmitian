@@ -1,0 +1,41 @@
+.#{$prefix}-sidebar{
+    // position: fixed;
+    // width: 250px;
+    // height: 100%;
+    // background-color: $color_light_blue;
+    // overflow: auto;
+    ul{
+        @extend %reset-ul;
+        border-bottom: 1px solid $color_light_gray;
+        li{
+            a{
+                display: inline-block;
+                text-decoration: none;
+                // color: $color_light_gray;
+                color: gray;
+                text-transform: capitalize;
+                width: 100%;
+                padding: 7.5px 30px 7.5px 60px;
+                position: relative;
+                span{
+                    font-size: 18px;
+                    line-height: 1;
+                    position: absolute;
+                    left: 30px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+                &:hover{
+                    color: $color_primary;
+                    background-color: $color_light_gray;
+                }
+            }
+        }
+    }
+    .#{$prefix}-contact{
+        padding: 7.5px 30px; 
+        .#{$prefix}-caption{
+            padding: 0 10px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+html{
+    font-family: 'Poppins';
+    body{
+        margin: 0;
+        // color: #5c666A;
+        color: $color_black;
+        font-size: 16px;
+        font-family: Poppins;
+        background-color: $color_light_gray;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 18px;
+    }
+}

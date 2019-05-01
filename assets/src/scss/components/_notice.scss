@@ -1,0 +1,31 @@
+.#{$prefix}-notice{
+    background-color: $color_white;
+    padding: 15px 15px 15px 30px;
+    @include border-radius();
+    box-shadow: 0 0 10px 5px rgba(128,128,128,.28);
+    .#{$prefix}-notice-image{
+        @extend %background-position;
+        background-size: contain;
+        cursor: pointer;
+    }
+    .#{$prefix}-desc{
+        position: relative;
+        p{
+            color: $color_gray;
+        }
+        .#{$prefix}-day{
+            color: $color_secondary;
+        }
+    }
+    .#{$prefix}-share-image{
+        background-image: url("../img/share-icon.png");
+        @extend %background-position;
+        background-size: cover;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 40px;
+        width: 40px;
+    }
+}
