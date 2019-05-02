@@ -1,4 +1,4 @@
-.evit-menu-block{
+.#{$prefix}-menu-block{
     background: $color_white;
     border-radius: 5px;
     padding: 30px;
@@ -15,7 +15,7 @@
         }
         span{
             display: block;
-            &.evit-image{
+            &.#{$prefix}-image{
                 width: 100px;
                 margin: 0 auto 10px auto;
             }

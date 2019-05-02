@@ -1,0 +1,23 @@
+.#{$prefix}-resoures{
+    background-color: $color_white;
+    padding: 15px 30px;
+    @include border-radius();
+    box-shadow: 0 0 10px 5px rgba(128,128,128,.28);
+    position: relative;
+    .#{$prefix}-desc{
+        width: calc( 100% - 50px);
+        padding-right: 30px;
+        .#{$prefix}-date{
+            border-top: 2px solid $color_primary;
+            color: $color_gray;
+            margin-top: 20px;
+            padding-top: 20px;
+        }
+    }
+    .#{$prefix}-download-status{
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        transform: translateY(-50%);
+    }
+}

@@ -89,4 +89,41 @@ html {
   padding: 30px;
   background-color: #9fcbef; }
 
-/*# sourceMappingURL=faculty.css.map */
+.kcmitian-resoures {
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px rgba(128, 128, 128, 0.28);
+  position: relative; }
+  .kcmitian-resoures .kcmitian-desc {
+    width: calc( 100% - 50px);
+    padding-right: 30px; }
+    .kcmitian-resoures .kcmitian-desc .kcmitian-date {
+      border-top: 2px solid #00796B;
+      color: #8b8b8b;
+      margin-top: 20px;
+      padding-top: 20px; }
+  .kcmitian-resoures .kcmitian-download-status {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%); }
+
+.kcmitian-download {
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  background-color: #9B517C;
+  text-align: center;
+  color: white;
+  border-radius: 100%; }
+
+.kcmitian-resources-list {
+  padding: 30px 30px 60px;
+  background-color: #eee; }
+  .kcmitian-resources-list .kcmitian-resoures {
+    margin-top: 30px; }
+
+/*# sourceMappingURL=resources.css.map */

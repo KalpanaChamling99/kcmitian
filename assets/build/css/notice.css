@@ -1,14 +1,14 @@
-.evit-sidebar ul {
+.kcmitian-sidebar ul {
   margin: 0;
   padding: 0;
   list-style: none; }
 
-.evit-notice .evit-notice-image, .evit-notice .evit-share-image {
+.kcmitian-notice .kcmitian-notice-image, .kcmitian-notice .kcmitian-share-image {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
 
-.evit-row {
+.kcmitian-row {
   margin-left: -15px;
   margin-right: -15px; }
 
@@ -35,9 +35,9 @@ html {
   vertical-align: middle;
   max-width: 100%; }
 
-.evit-sidebar ul {
+.kcmitian-sidebar ul {
   border-bottom: 1px solid #eee; }
-  .evit-sidebar ul li a {
+  .kcmitian-sidebar ul li a {
     display: inline-block;
     text-decoration: none;
     color: gray;
@@ -45,29 +45,29 @@ html {
     width: 100%;
     padding: 7.5px 30px 7.5px 60px;
     position: relative; }
-    .evit-sidebar ul li a span {
+    .kcmitian-sidebar ul li a span {
       font-size: 18px;
       line-height: 1;
       position: absolute;
       left: 30px;
       top: 50%;
       transform: translateY(-50%); }
-    .evit-sidebar ul li a:hover {
+    .kcmitian-sidebar ul li a:hover {
       color: #00796B;
       background-color: #eee; }
-.evit-sidebar .evit-contact {
+.kcmitian-sidebar .kcmitian-contact {
   padding: 7.5px 30px; }
-  .evit-sidebar .evit-contact .evit-caption {
+  .kcmitian-sidebar .kcmitian-contact .kcmitian-caption {
     padding: 0 10px; }
 
-.evit-sidebar {
+.kcmitian-sidebar {
   position: fixed;
   width: 250px;
   height: 100%;
   background-color: #9fcbef;
   overflow: auto; }
 
-.evit-nav-bar {
+.kcmitian-nav-bar {
   background-color: white;
   color: #00796B;
   padding: 0 30px;
@@ -79,12 +79,12 @@ html {
   width: 100%;
   z-index: 1; }
 
-.evit-main {
+.kcmitian-main {
   margin-left: 250px;
   padding-right: 250px;
   padding-top: 60px; }
 
-.evit-user-info {
+.kcmitian-user-info {
   border-radius: 5px;
   min-height: 100vh;
   position: fixed;
@@ -94,21 +94,21 @@ html {
   padding: 30px;
   background-color: #9fcbef; }
 
-.evit-notice {
+.kcmitian-notice {
   background-color: white;
-  padding: 15px 15px 15px 30px;
+  padding: 15px  30px;
   border-radius: 5px;
   box-shadow: 0 0 10px 5px rgba(128, 128, 128, 0.28); }
-  .evit-notice .evit-notice-image {
+  .kcmitian-notice .kcmitian-notice-image {
     background-size: contain;
     cursor: pointer; }
-  .evit-notice .evit-desc {
+  .kcmitian-notice .kcmitian-desc {
     position: relative; }
-    .evit-notice .evit-desc p {
+    .kcmitian-notice .kcmitian-desc p {
       color: #8b8b8b; }
-    .evit-notice .evit-desc .evit-day {
+    .kcmitian-notice .kcmitian-desc .kcmitian-day {
       color: #e21614; }
-  .evit-notice .evit-share-image {
+  .kcmitian-notice .kcmitian-share-image {
     background-image: url("../img/share-icon.png");
     background-size: cover;
     position: absolute;
@@ -118,10 +118,10 @@ html {
     height: 40px;
     width: 40px; }
 
-.evit-notice-list {
+.kcmitian-notice-list {
   padding: 30px 30px 60px;
   background-color: #eee; }
-  .evit-notice-list .evit-notice {
+  .kcmitian-notice-list .kcmitian-notice {
     margin-top: 30px; }
 
 /*# sourceMappingURL=notice.css.map */
