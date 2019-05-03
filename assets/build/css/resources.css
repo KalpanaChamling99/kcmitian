@@ -3,6 +3,11 @@
   padding: 0;
   list-style: none; }
 
+.kcmitian-resources .kcmitian-download {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
 .kcmitian-row {
   margin-left: -15px;
   margin-right: -15px; }
@@ -76,7 +81,6 @@ html {
 
 .kcmitian-main {
   margin-left: 250px;
-  padding-right: 250px;
   padding-top: 60px; }
 
 .kcmitian-user-info {
@@ -89,41 +93,44 @@ html {
   padding: 30px;
   background-color: #9fcbef; }
 
-.kcmitian-resoures {
+.kcmitian-resources {
   background-color: white;
   padding: 15px 30px;
   border-radius: 5px;
   box-shadow: 0 0 10px 5px rgba(128, 128, 128, 0.28);
   position: relative; }
-  .kcmitian-resoures .kcmitian-desc {
-    width: calc( 100% - 50px);
+  .kcmitian-resources .kcmitian-desc {
+    width: calc( 100% - 40px);
     padding-right: 30px; }
-    .kcmitian-resoures .kcmitian-desc .kcmitian-date {
+    .kcmitian-resources .kcmitian-desc .kcmitian-date {
       border-top: 2px solid #00796B;
       color: #8b8b8b;
       margin-top: 20px;
       padding-top: 20px; }
-  .kcmitian-resoures .kcmitian-download-status {
+  .kcmitian-resources .kcmitian-download {
+    background-image: url("../img/download.png");
+    background-size: cover;
     position: absolute;
-    top: 50%;
     right: 30px;
-    transform: translateY(-50%); }
+    top: 50%;
+    transform: translateY(-50%);
+    height: 40px;
+    width: 40px; }
 
-.kcmitian-download {
-  font-size: 24px;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  display: inline-block;
-  background-color: #9B517C;
-  text-align: center;
-  color: white;
-  border-radius: 100%; }
-
-.kcmitian-resources-list {
+.kcmitian-blog-list,
+.kcmitian-resources-list,
+.kcmitian-notice-list {
   padding: 30px 30px 60px;
   background-color: #eee; }
-  .kcmitian-resources-list .kcmitian-resoures {
+  .kcmitian-blog-list .kcmitian-blog,
+  .kcmitian-blog-list .kcmitian-resources,
+  .kcmitian-blog-list .kcmitian-notice,
+  .kcmitian-resources-list .kcmitian-blog,
+  .kcmitian-resources-list .kcmitian-resources,
+  .kcmitian-resources-list .kcmitian-notice,
+  .kcmitian-notice-list .kcmitian-blog,
+  .kcmitian-notice-list .kcmitian-resources,
+  .kcmitian-notice-list .kcmitian-notice {
     margin-top: 30px; }
 
 /*# sourceMappingURL=resources.css.map */

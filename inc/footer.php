@@ -1,8 +1,8 @@
             
              </div><!--kcmitian-main-->
-             <div class="kcmitian-user-info">
+             <!-- <div class="kcmitian-user-info">
                 <p>Hello</p>
-            </div>
+            </div> -->
 
        
         

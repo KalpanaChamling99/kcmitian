@@ -1,11 +1,4 @@
 @import 'common'; 
 @import 'components/resources';
-@import 'components/icon/download';
+@import 'share/section-layout';
 
-.#{$prefix}-resources-list{
-    padding: 30px 30px 60px;
-    background-color: $color_light_gray;
-    .#{$prefix}-resoures{
-        margin-top: 30px;   
-    }
-}

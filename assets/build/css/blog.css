@@ -88,4 +88,36 @@ html {
   padding: 30px;
   background-color: #9fcbef; }
 
-/*# sourceMappingURL=faculty.css.map */
+.kcmitian-blog {
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px rgba(128, 128, 128, 0.28); }
+  .kcmitian-blog a {
+    color: #000;
+    text-decoration: none; }
+  .kcmitian-blog .kcmitian-align {
+    align-items: center; }
+  .kcmitian-blog .kcmitian-image {
+    height: 150px;
+    overflow: hidden; }
+  .kcmitian-blog .kcmitian-desc .kcmitian-author {
+    color: #8b8b8b; }
+
+.kcmitian-blog-list,
+.kcmitian-resources-list,
+.kcmitian-notice-list {
+  padding: 30px 30px 60px;
+  background-color: #eee; }
+  .kcmitian-blog-list .kcmitian-blog,
+  .kcmitian-blog-list .kcmitian-resources,
+  .kcmitian-blog-list .kcmitian-notice,
+  .kcmitian-resources-list .kcmitian-blog,
+  .kcmitian-resources-list .kcmitian-resources,
+  .kcmitian-resources-list .kcmitian-notice,
+  .kcmitian-notice-list .kcmitian-blog,
+  .kcmitian-notice-list .kcmitian-resources,
+  .kcmitian-notice-list .kcmitian-notice {
+    margin-top: 30px; }
+
+/*# sourceMappingURL=blog.css.map */

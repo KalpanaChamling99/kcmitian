@@ -14,12 +14,12 @@
     <body>
         <div class="kcmitian-sidebar">
             <ul>
-                <li><a href="#"><span><i class="fa fa-home"></i></span>Home</a></li>
+                <li><a href="index.php"><span><i class="fa fa-home"></i></span>Home</a></li>
                 <li><a href="notice.php"><span><i class="fa fa-bullhorn"></i></span>Notice</a></li>
-                <li><a href="#"><span><i class="fa fa-download"></i></span>Resources</a></li>
+                <li><a href="resources.php"><span><i class="fa fa-download"></i></span>Resources</a></li>
                 <li><a href="#"><span><i class="fa fa-calendar"></i></span>calendar</a></li>
                 <li><a href="#"><span><i class="fa fa-images"></i></span>Gallery</a></li>
-                <li><a href="#"><span><i class="fab fa-blogger-b"></i></span>blog</a></li>
+                <li><a href="blog.php"><span><i class="fab fa-blogger-b"></i></span>blog</a></li>
                 <li><a href="#"><span><i class="fa fa-user"></i></span>faculty</a></li>
                 <li><a href="#"><span><i class="fa fa-clock"></i></span>routine</a></li>
                 <li><a href="#"><span><i class="fa fa-comment-alt"></i></span>discussion</a></li>

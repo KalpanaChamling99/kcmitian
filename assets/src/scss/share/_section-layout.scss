@@ -1,0 +1,12 @@
+.#{$prefix}-blog-list,
+.#{$prefix}-resources-list,
+.#{$prefix}-notice-list{
+    padding: 30px 30px 60px;
+    background-color: $color_light_gray;
+    .#{$prefix}-blog,
+    .#{$prefix}-resources,
+    .#{$prefix}-notice{
+        margin-top: 30px;
+      
+    }
+}

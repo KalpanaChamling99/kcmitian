@@ -81,7 +81,6 @@ html {
 
 .kcmitian-main {
   margin-left: 250px;
-  padding-right: 250px;
   padding-top: 60px; }
 
 .kcmitian-user-info {
@@ -118,9 +117,19 @@ html {
     height: 40px;
     width: 40px; }
 
+.kcmitian-blog-list,
+.kcmitian-resources-list,
 .kcmitian-notice-list {
   padding: 30px 30px 60px;
   background-color: #eee; }
+  .kcmitian-blog-list .kcmitian-blog,
+  .kcmitian-blog-list .kcmitian-resources,
+  .kcmitian-blog-list .kcmitian-notice,
+  .kcmitian-resources-list .kcmitian-blog,
+  .kcmitian-resources-list .kcmitian-resources,
+  .kcmitian-resources-list .kcmitian-notice,
+  .kcmitian-notice-list .kcmitian-blog,
+  .kcmitian-notice-list .kcmitian-resources,
   .kcmitian-notice-list .kcmitian-notice {
     margin-top: 30px; }
 
