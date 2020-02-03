@@ -1,22 +1,20 @@
 .#{$prefix}-notice{
     background-color: $color_white;
-    padding: 15px  30px;
+    padding: 15px;
     @include border-radius();
     box-shadow: 0 0 10px 5px rgba(128,128,128,.28);
-    .#{$prefix}-notice-image{
+    .#{$prefix}-image-section{
         @extend %background-position;
         background-size: contain;
         cursor: pointer;
+        flex: 0 0 300px;
+        max-width: 300px;
     }
-    .#{$prefix}-desc{
+    .#{$prefix}-post-desc{
         position: relative;
-        p{
-            color: $color_gray;
-        }
-        .#{$prefix}-day{
-            color: $color_secondary;
-        }
+        flex: 0 0 calc(100% - 300px)
     }
+   
     .#{$prefix}-share-image{
         background-image: url("../img/share-icon.png");
         @extend %background-position;

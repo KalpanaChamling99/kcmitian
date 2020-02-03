@@ -1,1 +1,15 @@
-@import 'classes';
+@import 'blog';
+@import 'menu-block';
+@import 'notice';
+@import 'resources';
+.#{$prefix}-post-desc{
+    position: relative;
+    p,
+    .#{$prefix}-post-title,
+    .#{$prefix}-day,
+    .#{$prefix}-author{
+        margin: 0;
+        padding-top: 10px;
+    }
+    
+}

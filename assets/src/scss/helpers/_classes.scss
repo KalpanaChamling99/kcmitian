@@ -1,4 +1,11 @@
-.#{$prefix}-row{
-    margin-left: -15px;
-    margin-right: -15px;
+
+.img-fluid{
+    vertical-align: middle;
+    max-width: 100%;
+}
+.#{$prefix}-text-secondary-color{
+    color: $color_secondary;
+}
+.#{$prefix}-text-gray-color{
+    color: $color_gray;
 }

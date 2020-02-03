@@ -1,22 +1,16 @@
 .#{$prefix}-blog{
     background-color: $color_white;
-    padding: 15px 30px;
+    padding: 10px 15px 15px;
     @include border-radius();
     box-shadow: 0 0 10px 5px rgba(128,128,128,.28);
-    a{
-        color: $color_black;
-        text-decoration: none;
-    }   
-    .#{$prefix}-align{
-        align-items: center;
-    }
-    .#{$prefix}-image{
-        height: 150px;
+  
+    .#{$prefix}-image-section{
+        padding-top: 5px;
+        height: 250px;
         overflow: hidden;
     }
-    .#{$prefix}-desc{
-        .#{$prefix}-author{
-            color: $color_gray;
-        }
+    .#{$prefix}-post-desc{
+        padding-top: 5px;
     }
+ 
 }

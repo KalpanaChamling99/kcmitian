@@ -5,7 +5,7 @@
     include("inc/header.php");
 ?> 
 
-<div class="kcmitian-home-content">
+<div class="kcmitian-home-section">
     <div class="container">
         <div class="kcmitian-wrapper">
             <!-- ------------------------Banner--------------------- -->
@@ -18,8 +18,8 @@
             <!-- ******************************************************* -->
     
             <div class="kcmitian-menu-block-overlap">
-                <div class="row">
-                    <div class="col-md-4">
+                <div class="kcmitian-row">
+                    <div class="kcmitian-col-4">
                         <div class="kcmitian-menu-block">
                             <a href="#">
                                 <span class="kcmitian-image">
@@ -29,7 +29,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="kcmitian-col-4">
                         <div class="kcmitian-menu-block">
                             <a href="#">
                                 <span class="kcmitian-image">
@@ -39,7 +39,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="kcmitian-col-4">
                         <div class="kcmitian-menu-block">
                             <a href="#">
                                 <span class="kcmitian-image">
@@ -53,9 +53,9 @@
             </div><!--/kcmitian-menu-block-overlap-->
             
             <div class="kcmitian-menu-block-list ">
-                <div class="row">
+                <div class="kcmitian-row">
     
-                    <div class="col-md-4">
+                    <div class="kcmitian-col-4">
                         <div class="kcmitian-menu-block">
                             <a href="#">
                                 <span class="kcmitian-image">
@@ -65,7 +65,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="kcmitian-col-4">
                         <div class="kcmitian-menu-block">
                             <a href="#">
                                 <span class="kcmitian-image">
@@ -75,7 +75,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="kcmitian-col-4">
                         <div class="kcmitian-menu-block">
                             <a href="#">
                                 <span class="kcmitian-image">
@@ -85,7 +85,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="kcmitian-col-4">
                         <div class="kcmitian-menu-block">
                             <a href="#">
                                 <span class="kcmitian-image">
@@ -95,7 +95,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="kcmitian-col-4">
                         <div class="kcmitian-menu-block">
                             <a href="#">
                                 <span class="kcmitian-image">
@@ -105,7 +105,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="kcmitian-col-4">
                         <div class="kcmitian-menu-block">
                             <a href="#">
                                 <span class="kcmitian-image">

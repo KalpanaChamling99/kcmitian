@@ -8,8 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/build/css/vendor.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/build/css/<?php echo $page;?>.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
     <body>
         <div class="kcmitian-sidebar">
@@ -41,4 +40,4 @@
             </div>
         </div>
 
-        <div class="kcmitian-main">
+        <div class="kcmitian-main-content">
