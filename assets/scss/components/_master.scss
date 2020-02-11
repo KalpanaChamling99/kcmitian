@@ -1,0 +1,24 @@
+@import 'meta-tag';
+@import 'category';
+@import 'blog';
+@import 'menu-block';
+@import 'notice'; 
+@import 'resources';
+.#{$prefix}-post-desc{
+    padding: 0 15px 15px;
+    p,
+    .#{$prefix}-post-title,
+    .#{$prefix}-author{
+        margin: 0;
+        padding-top: 10px;
+    }
+    .#{$prefix}-meta-tag{
+        span{
+            padding-top: 10px;
+        }
+        .#{$prefix}-icon-image{
+            margin-top: 15px;
+        }
+    }
+    
+}

@@ -1,0 +1,28 @@
+%reset-ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+%background-position{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+%perspective{
+    transform:  perspective(1px) translateZ(0);
+}
+%overlay{
+    position: relative;
+    z-index: 1;
+    &:before{
+        position: absolute;
+        display: block;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        background-color: rgba($color_black,0.4);
+        content: '';
+    }
+}

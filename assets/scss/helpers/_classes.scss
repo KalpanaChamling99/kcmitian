@@ -1,0 +1,27 @@
+
+.img-fluid{
+    vertical-align: middle;
+    max-width: 100%;
+}
+.#{$prefix}-box-shadow-sm{
+    box-shadow: 0 0 5px 5px rgba(128,128,128,.28);
+}
+
+.#{$prefix}-text-gray-color{
+    color: $color_gray;
+}
+.#{$prefix}-bg-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.#{$prefix}-image-250{
+    height: 250px;
+}
+.#{$prefix}-image-300{
+    height: 300px;
+}
+.#{$prefix}-image-overlay{
+    @extend %perspective;
+    @extend %overlay;
+}

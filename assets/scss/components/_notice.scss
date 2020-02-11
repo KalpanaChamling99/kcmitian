@@ -1,0 +1,10 @@
+.#{$prefix}-notice{
+    background-color: $color_white;
+    // padding: 15px;
+    @include border-radius();
+    .#{$prefix}-icon-image{
+        background-image: url("assets/img/share-icon.png");
+        height: 25px;
+        width: 25px;
+    }
+}

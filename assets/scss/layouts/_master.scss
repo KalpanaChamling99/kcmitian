@@ -1,0 +1,24 @@
+@import 'banner';
+@import 'master-layout';
+@import 'sidebar';
+@import 'navbar';
+@import 'userinfo';
+.#{$prefix}-post-section{
+    padding: 30px 30px 60px;
+    background-color: $color_light_gray;
+    .#{$prefix}-post{
+        margin-top: 30px;
+    }
+}
+// .#{$prefix}-blog-list,
+// .#{$prefix}-resources-list,
+// .#{$prefix}-notice-list{
+//     padding: 30px 30px 60px;
+//     background-color: $color_light_gray;
+//     .#{$prefix}-post,
+//     .#{$prefix}-resources,
+//     .#{$prefix}-notice{
+//         margin-top: 30px;
+      
+//     }
+// }
